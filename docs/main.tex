@@ -1,0 +1,18 @@
+\documentclass[a4paper]{article}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text,Ligatures={Common,Rare,Discretionary}]{Linux
+  Libertine O}
+\usepackage{pdflscape}
+\usepackage{minted}
+
+\title{DoccoTeX}
+\begin{document}
+
+\begin{landscape}
+  \begingroup
+  \fontsize{9pt}{11pt}\selectfont
+  \input{docco.tex}
+  \endgroup
+\end{landscape}
+\end{document}
