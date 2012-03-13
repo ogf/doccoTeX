@@ -7,4 +7,4 @@ included in your main document.
 For more information, see the result of applying **DoccoTeX** to
 itself:
 
-[docco.coffee](http://github.com/ogf/docco/blob/master/docs/main.pdf?raw=true)
+[docco.coffee](https://github.com/ogf/doccoTeX/blob/master/docs/main.pdf?raw=true)
