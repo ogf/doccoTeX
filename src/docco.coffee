@@ -1,6 +1,6 @@
 # **DoccoTeX** is totally based on
 # [Docco](http://jashkenas.github.com/docco/). The output produced can
-# be included in some LaTex document. The silly LaTeX files produced
+# be included in some LaTeX document. The silly LaTeX files produced
 # might or might not be a good fit for you, just modify
 # `resources/docco.jst` to adapt it to your needs.
 #
@@ -106,7 +106,7 @@ markdown_to_latex = (source, sections, callback) ->
     pandoc.stdin.end()
 
 # Once all of the code has been splitted and the docs converted to
-# LaTeX, we can generate the LaTex file and write out the
+# LaTeX, we can generate the LaTeX file and write out the
 # documentation. Pass the completed sections into the template found
 # in `resources/docco.jst`.
 generate_latex = (source, sections) ->
